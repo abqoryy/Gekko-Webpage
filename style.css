@@ -22,6 +22,11 @@ nav > a {
     color: white;
 }
 
+nav > a:hover {
+    color: #F1FF00;
+    transform: scale(1.08);
+}
+
 .homepage {
     height: calc(100vh - 35px);
     display: grid;
@@ -77,13 +82,20 @@ nav > a {
     height: 50px;
     background-color: #F1FF00;
     /* dihover jadi warna #FFC700 */
-    border: 2px solid #FF00B7;
+    border: 2px solid #FFC700;
     border-radius: 50px;
     margin-left: 40px;
     font-family: 'Barlow', serif;
     font-weight: 400;
     font-size: 20px;
     color: #280073;
+}
+
+button:hover {
+    background-color: #280073;
+    border: 2px solid #F1FF00;
+    color: #F1FF00;
+    transition: 0.3s ease-out;
 }
 
 .abilities {
