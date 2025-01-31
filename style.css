@@ -89,7 +89,7 @@ nav > a:hover {
     height: 50px;
     background-color: #F1FF00;
     /* dihover jadi warna #FFC700 */
-    border: 2px solid #FFC700;
+    border:2px solid #FFC700;
     border-radius: 50px;
     margin-left: 40px;
     font-family: 'Barlow', serif;
@@ -274,7 +274,7 @@ footer {
         margin-left: 10px;
     }
     .gekko-image img {
-        width: 317px;
+        width: 75%;
         top: 250px;
         left: 130px;
         z-index: -1;
