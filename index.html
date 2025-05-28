@@ -1,9 +1,10 @@
-    <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap" rel="stylesheet">
@@ -11,32 +12,41 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Gekko Webpage</title>
 </head>
 <body>
     <nav>
-        <a href="#home">Home</a>
-        <a href="#wingman"> Wingman</a>
-        <a href="#dizzy">Dizzy</a>
-        <a href="#mosh">Mosh Pit</a>
-        <a href="#thrash">Thrash</a>
+        <div class="baiter">
+            <!-- baiter for logo since we dont have any logo yet -->
+        </div>
+        <ul class="nav-list">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#wingman">Wingman</a></li>
+            <li><a href="#dizzy">Dizzy</a></li>
+            <li><a href="#mosh">Moshpit</a></li>
+            <li><a href="#thrash">Thrash</a></li>
+        </ul>
+        <div class="right-nav">
+            <a href="#" class="sign-btn">Sign In</a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
     </nav>
     <main>
-        <section id=home class="homepage">
-            <div class="headline">
+        <section id="home" class="homepage">
+            <div class="hero">
                 <h1 class="gekko-title">Gekko</h1>
                 <p>
-                Gekko the Angeleno leads a tight-knit crew of calamitous creatures.  <br/> 
-                His buddies bound forward, scattering enemies out of the way, 
-                with Gekko chasing them down to regroup and go again.
+                    Gekko the Angeleno leads a tight-knit crew of calamitous creatures.
+                    His buddies bound forward, scattering enemies out of the way, 
+                    with Gekko chasing them down to regroup and go again.
                 </p>
-                <div class="button-n-badge">
-                    <img src="assets/images/role badge.svg" alt="Initiator Role">
+                 <div class="button">
                     <button onclick="window.location.href='#main-content'">See More</button>
                 </div>
             </div>
-            
-            <div class="gekko-image">
+            <div class="gekko-img">
                 <img src="assets/images/gekko png.png" alt="Gekko Header">
             </div>
         </section>
@@ -132,5 +142,6 @@
             </div>
         </footer>
     </main>
+    <script src="scripts/script.js"></script>
 </body>
 </html>

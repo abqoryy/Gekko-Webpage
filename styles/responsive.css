@@ -1,0 +1,241 @@
+@media (max-width: 1770px) {
+   nav {
+    padding: 22px 4%;
+   }
+   
+}
+
+@media (max-width: 1670px) {
+    .gekko-title {
+        font-size: 200px;
+    }
+}
+
+@media (max-width: 1370px) {
+    section#home {
+        padding: 0 4%;
+    }
+}
+
+@media (max-width: 1150px) {
+    .gekko-title {
+        font-size: 150px;
+    }
+    .hero p {
+        font-size: 16px;
+        opacity: 0.8;
+        margin-top: -20px;
+    }
+    .button > button {
+        width: 350px;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 40px;
+    }
+}
+
+@media (max-width: 950px) {
+    #menu-icon {
+        display: block;
+    }
+
+    .baiter {
+        display: block;
+    }
+
+    .nav-list {
+        position: absolute;
+        width: 100%;
+        height: 100vh;
+        padding: 100px 50px;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 100%;
+        display: flex;
+        flex-direction: column;
+        backdrop-filter: blur(30px);
+        transition: all .6s ease-in-out;
+    }
+
+    .nav-list a {
+        display: block;
+        padding: 0;
+        margin: 0px 0px 25px 0px;
+        font-size: 30px;
+    }
+
+    .nav-list.open {
+        left: 0;
+    }
+}
+
+@media (max-width: 920px) {
+    section#home {
+        grid-template-columns: 1fr;
+        height: auto;
+    }
+    .hero {
+        padding: 10% 5%;
+        text-align: center;
+    }
+    .hero p {
+        max-width: 600px;
+        margin: -40px auto auto;
+    }
+    .gekko-title {
+        font-size: 220px;
+    }
+    .gekko-img {
+        width: 700px;
+        height: 700px;
+        margin: auto;
+    }
+    .gekko-img > img {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;    
+    }
+}
+
+@media (max-width: 570px) {
+    section#home {
+        height: 100vh;
+    }
+    .gekko-img {
+        width: 400px;
+        height: 400px;
+        margin: 0 auto;
+    }
+    .gekko-title {
+        font-size: 150px;
+    }
+    .hero p {
+        max-width: 450px;
+        margin: -20px auto auto;
+        font-size: 14px;
+    }
+    .sign-btn {
+        padding: 8px 20px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 440px) {
+    .gekko-title {
+        font-size: 120px;
+    }
+    .hero p {
+        font-size: 12px;
+        margin-top: -10px;
+        max-width: 320px
+    }
+    .button > button {
+        width: 250px;
+        height: 30px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    
+    .main-content {
+        background-color: #280073;
+    }
+    .abilities {
+        height: 40px;
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+    .grid-container {
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(8, 210px);
+    }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .card h2 {
+        font-size: 30px;
+        text-align: center;
+        color: #FFC700;
+    }
+    .card h3 {
+        font-size: 12px;
+        text-align: center;
+        color: white;
+        margin-top: 0;
+    }
+    .card p {
+        font-size: 12px;
+        color: white;
+        width: auto;
+        justify-self: flex-start;
+    }
+    .card img {
+        width: 90%;
+        border-radius: 20px;
+    }
+    .right, .left {
+        margin: 0;
+        text-align: center;
+    }
+    .wingman {
+       order: 0; 
+    }
+    #wingman {
+        order: 1;
+    }
+    .dizzy {
+        order: 2;
+    }
+    #dizzy {
+        order: 3;
+    }
+    .mosh {
+        order: 4;
+    }
+    #mosh {
+        order: 5;
+    }
+    .thrash {
+        order: 6;
+    }
+    #thrash {
+        order: 7;
+    }
+    #wingman, #dizzy, #moshpit, #thrash {
+        background-color: #280073;
+        
+    }
+    footer {
+        background-color: #FFC700;
+    }
+    .closing {
+        width: auto;
+        text-align: center;
+        height: 288px;
+        margin: 20px;
+    }
+    .closing > h2 {
+        color: #280073;
+        font-size: 25px;
+    }
+    .closing > p {
+        color: black;
+        font-size: 10px;
+    }
+    .social {
+        margin-top: 20px;
+        gap: 15px;
+    }
+    .social > img {
+        width: 40px;
+    }
+    .copyright {
+        font-size: 8px;
+    }
+}
