@@ -125,16 +125,56 @@
     .gekko-title {
         font-size: 120px;
     }
+
     .hero p {
         font-size: 12px;
         margin-top: -10px;
-        max-width: 320px
+        max-width: 320px;
+        font-size: 12px;
     }
     .button > button {
         width: 250px;
         height: 30px;
         font-size: 16px;
         margin-top: 30px;
+    }
+}
+
+@media (max-width: 425px) {
+
+    .hero {
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        
+    }
+
+    .hero p {
+        max-width: 320px;
+        margin: 0 auto;
+        font-size: 12px;
+    }
+
+    .button > button {
+        width: 250px;
+        height: 30px;
+        font-size: 16px;
+        margin-top: 30px;
+    }
+
+    section#home {
+        display: block; /* ubah layout agar satu kolom di layar kecil */
+        height: 100vh;   /* biarkan tinggi mengikuti konten */
+    }
+
+    .gekko-img {
+        text-align: center;
+    }
+
+    .gekko-img img {
+        width: 80%;
+        max-width: 300px;
+        margin-top: 20px;
     }
 }
 
