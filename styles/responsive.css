@@ -98,6 +98,21 @@
     }
 }
 
+@media (max-width: 750px) {
+    section#home {
+        display: block;
+    }
+
+    .gekko-img {
+        text-align: center;
+    }
+    
+    .gekko-img > img {
+        height: auto;
+        width: 400px;
+    }
+}
+
 @media (max-width: 570px) {
     section#home {
         height: 100vh;
@@ -163,12 +178,7 @@
     }
 
     section#home {
-        display: block; /* ubah layout agar satu kolom di layar kecil */
-        height: 100vh;   /* biarkan tinggi mengikuti konten */
-    }
-
-    .gekko-img {
-        text-align: center;
+        height: 100vh; 
     }
 
     .gekko-img img {
