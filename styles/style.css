@@ -127,17 +127,18 @@ button:hover {
     transition: 0.3s ease-out;
 }
 
-.gekko-img {
+.hero-container, .mobile-container {
    padding-left: 16%;
 }
 
-.gekko-img > img{
+.hero-container > img { /* image for desktop */
     width: 70%;
     height: auto;
-    
 }
 
-/* main content */
+.mobile-container { /* image for mobile */
+    display: none;
+}
 
 .main-content {
     position: relative;

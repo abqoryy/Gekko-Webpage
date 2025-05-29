@@ -137,6 +137,17 @@
 }
 
 @media (max-width: 440px) {
+
+    section#home {
+        display: flex;
+        flex-direction: column-reverse;
+        outline: 2px solid white;
+    }
+
+    .hero{
+        outline: 2px solid red;
+    }
+
     .gekko-title {
         font-size: 120px;
     }
@@ -152,6 +163,25 @@
         height: 30px;
         font-size: 16px;
         margin-top: 30px;
+    }
+
+    .hero-container {
+        display: none;
+    }
+
+    .mobile-container {
+        display: block;
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+        padding: 5%;
+        align-items: center;
+        outline: 2px solid greenyellow;
+    }
+
+    .mobile-container img {
+       
+       outline: 2px solid red;
     }
 }
 
@@ -179,12 +209,6 @@
 
     section#home {
         height: 100vh; 
-    }
-
-    .gekko-img img {
-        width: 80%;
-        max-width: 300px;
-        margin-top: 20px;
     }
 }
 
