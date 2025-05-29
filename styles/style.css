@@ -10,6 +10,7 @@
 html, body {
     background-color: #280073;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 nav {

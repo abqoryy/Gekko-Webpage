@@ -141,15 +141,12 @@
     section#home {
         display: flex;
         flex-direction: column-reverse;
-        outline: 2px solid white;
-    }
-
-    .hero{
-        outline: 2px solid red;
+        justify-content: start;
+        padding: 10% 0;
     }
 
     .gekko-title {
-        font-size: 120px;
+        display: none;
     }
 
     .hero p {
@@ -176,12 +173,6 @@
         max-width: 400px;
         padding: 5%;
         align-items: center;
-        outline: 2px solid greenyellow;
-    }
-
-    .mobile-container img {
-       
-       outline: 2px solid red;
     }
 }
 
