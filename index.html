@@ -7,144 +7,115 @@
     <link rel="stylesheet" href="styles/responsive.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;200;300;400;800&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@900&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
-    
+
     <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <title>Gekko Webpage</title>
 </head>
 <body>
-    <nav>
-        <div class="baiter">
-            <!-- baiter for logo since we dont have any logo yet -->
-        </div>
-        <ul class="nav-list">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#wingman">Wingman</a></li>
-            <li><a href="#dizzy">Dizzy</a></li>
-            <li><a href="#mosh">Moshpit</a></li>
-            <li><a href="#thrash">Thrash</a></li>
-        </ul>
-        <div class="right-nav">
-            <a href="#" class="sign-btn">Sign In</a>
-            <div class="bx bx-menu" id="menu-icon"></div>
-        </div>
-    </nav>
+    <!-- background contour untuk bagian #home / #homepage-->
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#wingman">Wingman</a></li>
+                <li><a href="#dizzy">Dizzy</a></li>
+                <li><a href="#moshpit">Moshpit</a></li>
+                <li><a href="#thrash">Thrash</a></li>
+            </ul>
+            <div class="burger-menu">
+                <div class="bx bx-menu" id="menu-icon"></div>
+            </div>
+        </nav>
+    </header>
     <main>
         <section id="home" class="homepage">
-            <div class="hero">
-                <h1 class="gekko-title">Gekko</h1>
-                <p>
-                    Gekko the Angeleno leads a tight-knit crew of calamitous creatures.
+            <div class="hero-container">
+                <div class="hero-title">
+                    <h1>Gekko</h1>
+                    <p>Gekko the Angeleno leads a tight-knit crew of calamitous creatures. 
                     His buddies bound forward, scattering enemies out of the way, 
                     with Gekko chasing them down to regroup and go again.
-                </p>
-                 <div class="button">
-                    <button onclick="window.location.href='#main-content'">See More</button>
+                    </p>
+                    <button>
+                        <a href="#" class="">Learn More</a>
+                    </button>
+                </div>
+                <div class="hero-img-container">
+                    <img src="assets/images/gekko-img.png" alt="Gekko Image">
                 </div>
             </div>
-            <div class="hero-container">
-                <img src="assets/images/gekko png.png" alt="Gekko Header">
-            </div>
-            <div class="mobile-container">
-                <img src="assets/images/gekko-mobile.png" alt="Gekko Image for Mobile">
-            </div>
+            <aside class="sidebar">
+                <div class="sidebar-container">
+                    <h2>Skills</h2>
+                    <div class="image-cover">
+                        <a href="#wingman"><img src="assets/images/wingman-picture.png" alt="Wingman"></a>
+                        <a href="#dizzy"><img src="assets/images/dizzy-picture.png" alt="Dizzy"></a>
+                        <a href="#moshpit"><img src="assets/images/moshpit-picture.png" alt="Moshpit"></a>
+                        <a href="#thrash"><img src="assets/images/thrash-picture.png" alt="Thrash"></a>
+                    </div>
+                </div>
+            </aside>
         </section>
-        <section id="main-content" class="main-content">
-            <div class="abilities">
-                Abilities
+        <section id="skills" class="ability">
+            <div class="ability-title">
+                <h2>Abilities</h2>
             </div>
-            <div class="grid-container">
-                
-                <div id="wingman" class="card">
-                    <div class="right">
-                        <h2>Wingman</h2>
-                        <h3>(Signature Ability)</h3>
-                        <p>
-                            A small, yellow creature that is able to appear around Gekko, <br/> 
-                            Wingman's head bears resemblance to that of an axolotl with <br/>
-                            a dark gray metallic head-plate. He walks in a bipedal fashion <br/> 
-                            and appears to be the most independent of Gekko's gang, and <br/> 
-                            as his name suggests, is Gekko’s "Wingman".
-                        </p>
-                    </div>
+            <div class="ability-container">
+                <div id="wingman" class="ability-card wingman">
+                    <aside class="ability-img-container">
+                        <img src="assets/images/wingman-picture.png" alt="">
+                    </aside>
+                    <article class="ability-text-container">
+                        <h3>Wingman</h3>
+                        <p></p>
+                    </article>
                 </div>
-
-                <div class="card wingman">
-                    <img src="assets/images/wingman picture.svg" alt="Wingman Image">
+                <div id="dizzy" class="ability-card dizzy">
+                    <aside class="ability-img-container">
+                        <img src="assets/images/dizzy-picture.png" alt="">
+                    </aside>
+                    <article class="ability-text-container">
+                        <h3>Dizzy</h3>
+                        <p></p>
+                    </article>
                 </div>
-                <div class="card dizzy">
-                    <img src="assets/images/dizzy picture.svg" alt="Dizzy Image">
-                </div> 
-                <div id="dizzy" class="card yellow">
-                    <div class="left">
-                        <h2>Dizzy</h2>
-                        <h3>(Signature Ability)</h3>
-                        <p>
-                            Dizzy is a small blue armadillo-like creature which <br/> 
-                            floats when idle. When attacking, she summons a <br/> 
-                            bubble around her and fires a blue plasma-like <br/> 
-                            substance out of her tail. The projectile she shoots has <br/> 
-                            a slimy, sticky texture and is blue.
-                        </p>
-                    </div>
+                 <div id="moshpit" class="ability-card moshpit">
+                    <aside class="ability-img-container">
+                        <img src="assets/images/moshpit-picture.png" alt="">
+                    </aside>
+                    <article class="ability-text-container">
+                        <h3>Moshpit</h3>
+                        <p></p>
+                    </article>
                 </div>
-
-                <div id="mosh" class="card">
-                    <div class="right">
-                        <h2>Moshpit</h2>
-                        <h3>(Signature Ability)</h3>
-                        <p>
-                            Gekko can summon Mosh at will and often wields him <br/>
-                            much like a grenade weapon. Mosh is similar to a frog egg <br/> 
-                            as a sphere of green slimy liquid with large eyes. When <br/> 
-                            used, he will seemingly make an area with more <br/> 
-                            "Moshes" inside of it, shortly exploding afterward. 
-                        </p>
-                    </div>
-                </div>
-                <div class="card mosh">
-                    <img src="assets/images/moshpit picture.svg" alt="Moshpit Image">
-                </div>
-
-                <div class="card thrash">
-                    <img src="assets/images/thrash picture.svg" alt="Thrash Image">
-                </div>
-                <div id="thrash" class="card yellow">
-                    <div class="left">
-                        <h2>Thrash</h2>
-                        <h3>(Signature Ability)</h3>
-                        <p>
-                            Thrash, a shark-like creature, originaly living in salt water <br/> 
-                            (as seen in abyss) can be directly controlled by Gekko, but <br/> 
-                            is also sentient when uncontrolled. Hovering and floating <br/> 
-                            slightly above the ground, Thrash also seems to be the <br/> 
-                            most shaky out of the bunch, though much like the other <br/> 
-                            summons, still values Gekko's safety above all else.
-                        </p>
-                    </div>
+                 <div id="thrash" class="ability-card thrash">
+                    <aside class="ability-img-container">
+                        <img src="assets/images/thrash-picture.png" alt="">
+                    </aside>
+                    <article class="ability-text-container">
+                        <h3>Thrash</h3>
+                        <p></p>
+                    </article>
                 </div>
             </div>
         </section>
-        <footer>
-            <div class="closing">
-                <h2>Still Learning Developer</h2>
-                <p>Still Learning is a place where developer is learning everyday everytime without tired.</p>
-                <div class="social">
-                    <img src="assets/images/twitter.svg" alt="Twitter Logo" onclick="window.location.href='https:instagram.com/abqoryy'">
-                    <img src="assets/images/instagram.svg" alt="Insatgram Logo" onclick="window.location.href='https:instagram.com/abqoryy'">
-                    <img src="assets/images/snapchat.svg" alt="Snapchat Logo" onclick="window.location.href='https:instagram.com/abqoryy'">
-                    <img src="assets/images/facebook.svg" alt="Facebook Logo" onclick="window.location.href='https:instagram.com/abqoryy'">
-                </div>
-            </div>
-            <div class="copyright">
-                Copyright C2024 All right reserved | Website coded by Abqori
-            </div>
-        </footer>
     </main>
-    <script src="scripts/script.js"></script>
+    <footer>
+        <div class="footer-content-container">
+            <h3>Still Learning Developer</h3>
+            <p>Still Learning is a place where developer is learning everyday everytime without tired.</p>
+        </div>
+         <div class="footer-contact-container">
+                <a href="https://www.instagram.com/abqoryy"><img src="assets/images/instagram.png" alt="Instagram Logo"></a>
+                <a href="https://github.com/abqoryy/dicoding-frontend"><img src="assets/images/github.png" alt=""></a>
+                <p>| muflihabqori@gmail.com</p>
+            </div>
+        <div class="footer-copyright-container">
+            <p>Copyright C2024 All right reserved | Website coded by Abqori </p>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
 </body>
 </html>

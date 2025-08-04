@@ -1,306 +1,414 @@
-@media (max-width: 1770px) {
-   nav {
-    padding: 22px 4%;
-   }
-   
+@media (max-width: 2000px) and (min-width: 1700px) {
+    .hero-container {
+        padding: 0 10% 0 0;
+        gap: 8rem;
+    }
+
+    .hero-title {
+        text-align: left;
+    }
+
+    .hero-title h1 {
+        font-size: 350px;
+    }
+
+    .hero-title p {
+        max-width: 650px;
+        font-size: 20px;
+    }
+
+    .hero-img-container img {
+        width: 285px;
+    }
+
+    .sidebar-container {
+        width:210px;
+        height: 545px;
+    }
+
+    .image-cover img{
+        width: 180px;
+        height: auto;
+    }
+
+    .ability-card {
+         /*each card get additional height 30px(DONE) */
+        height: 550px;
+        width: 340px;
+    }
+    .ability-img-container img {
+        width: 300px;
+    }
 }
 
-@media (max-width: 1670px) {
-    .gekko-title {
-        font-size: 200px;
+@media (max-width: 1699px) {
+    .ability-card {
+        /*each card get additional height 30px(DONE) */
+        height: 530px;
+    }
+    .button-ability {
+        width: 200px;
+        height: 40px;
+        font-size: 12px;
+        margin: 20px 0 0 0;
     }
 }
 
-@media (max-width: 1370px) {
-    section#home {
-        padding: 0 4%;
+@media (max-width: 1350px) {
+    .ability-card {
+        /*each card get additional height 30px(DONE) */
+        height: 580px;
+        width: 450px;
+        padding: 4% 0;
     }
-}
-
-@media (max-width: 1150px) {
-    .gekko-title {
-        font-size: 150px;
-    }
-    .hero p {
-        font-size: 16px;
-        opacity: 0.8;
-        margin-top: -20px;
-    }
-    .button > button {
+    .ability-img-container img {
         width: 350px;
-        height: 45px;
-        font-size: 18px;
-        margin-top: 40px;
+    }
+    .ability-text-container p {
+        max-width: 350px;
+    }
+    .button-ability {
+        width: 330px;
+        height: 50px;
+        font-size: 15px;
+        margin: 30px 0 0 0;
     }
 }
 
-@media (max-width: 950px) {
-    #menu-icon {
-        display: block;
+@media (max-width: 1200px) {
+    .nav-list a {
+        font-size: 17px;
+        width: 110px;
+        height: 35px;
+    }
+    .homepage {
+        gap: 0;
+    }
+    .hero-container {
+        padding: 0 2%;
+        gap: 3rem;
+    }
+    .hero-title h1 {
+       font-size: 200px; 
+    }
+    .hero-title p {
+        max-width: 450px;
+        font-size: 14px;
+        line-height: 2;
+    }
+    .hero-title button {
+        width: 300px;
+        height: 40px;
+        font-size: 16px;
+    }
+    .hero-img-container img {
+        width: 200px;
+    }
+    .sidebar-container {
+        width: 150px;
+        height: 385px;
+        border-radius: 15px;
+    }
+    .sidebar-container h2 {
+        font-size: 24px;
+    }
+    .image-cover {
+        padding: 20px 0 0 0;
+    }
+    .image-cover img {
+        width: 130px;
+        height: auto;
+        margin: 2px 0;
+    }
+}
+
+@media (max-width: 1030px) {
+    .ability-card {
+        width: 100%;
+        height: auto;
+        padding: 2%;
+        flex-direction: row;
+        gap: 3rem;
     }
 
-    .baiter {
-        display: block;
+    .ability-img-container img{
+        width: 400px;
+        height: auto;
     }
 
+    .ability-text-container {
+        margin: 0;
+    }
+    .ability-text-container p {
+        max-width: 450px;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 900px) {
+    .nav-list a {
+        font-size: 13px;
+        width: 90px;
+        height: 30px;
+    }
+    .homepage {
+        padding: 30px 5% 50px;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+    .hero-container {
+        flex-direction: row-reverse;
+        align-items: center;
+        padding: 2%;
+    }
+    .hero-title {
+        text-align: left;
+    }
+    .hero-title h1 {
+        display: none;
+    }
+    .hero-title p {
+        max-width: 350px;
+        margin: 20px 0 0 0;
+    }
+    .hero-title button {
+        width: 220px;
+        height: 40px;
+        font-size: 15px;
+        margin: 30px 0 0 0;
+    }
+    .hero-img-container img {
+        width: 270px;
+        height: auto;
+    }
+    .sidebar-container {
+        width: 120px;
+        height: 331px;
+    }
+    .sidebar-container h2 {
+        font-size: 20px;
+    }
+    .image-cover img {
+        width: 110px;
+        height: auto;
+    }
+
+    .ability-card {
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        padding: 4%;
+        gap: 1.5rem;
+    }
+    .ability-text-container h3 {
+        padding: 0 0 5px 0;
+    }
+    .ability-text-container p {
+        max-width: 350px;
+        font-size: 15px;
+        line-height: 1.5;
+    }
+    
+    .footer-content-container h3 {
+        font-size: 40px;
+    }
+    .footer-content-container p {
+        font-size: 17px;
+    }
+    .footer-contact-container p {
+        font-size: 12px;
+    }
+    .footer-contact-container img {
+        width: 40px;
+    }
+    .footer-copyright-container p {
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 730px) {
+    nav {
+        justify-content: space-between;
+    }
     .nav-list {
         position: absolute;
-        width: 100%;
+        width: 50%;
         height: 100vh;
         padding: 100px 50px;
         top: 0;
         right: 0;
         bottom: 0;
-        left: 100%;
+        left: -100%;
         display: flex;
         flex-direction: column;
         backdrop-filter: blur(30px);
-        transition: all .6s ease-in-out;
+        border-right: 2px solid #F1FF00;
+        transition: all .5s ease-in-out;
     }
-
     .nav-list a {
-        display: block;
-        padding: 0;
-        margin: 0px 0px 25px 0px;
+        margin: 0 0 40px 0;
         font-size: 30px;
+        font-weight: 200;
+        justify-content: flex-start;
+        padding: 20px;
+        width: auto;
     }
-
     .nav-list.open {
         left: 0;
     }
-}
-
-@media (max-width: 920px) {
-    section#home {
-        grid-template-columns: 1fr;
-        height: auto;
+    .no-scroll {
+        overflow: hidden;
     }
-    .hero {
-        padding: 10% 5%;
-        text-align: center;
-    }
-    .hero p {
-        max-width: 600px;
-        margin: -40px auto auto;
-    }
-    .gekko-title {
-        font-size: 220px;
-    }
-    .gekko-img {
-        width: 700px;
-        height: 700px;
-        margin: auto;
-    }
-    .gekko-img > img {
-        width: 100%;
-        height: 100%;
-        object-fit: contain;    
-    }
-}
-
-@media (max-width: 750px) {
-    section#home {
+    .burger-menu {
         display: block;
+        font-size: 40px;
+        z-index: 1000;
     }
-
-    .gekko-img {
+    .homepage {
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+    }
+    .hero-container {
+        flex-direction: column-reverse;
+        align-items: center;
+        gap: 0;
+    }
+    .hero-title {
         text-align: center;
     }
-    
-    .gekko-img > img {
+    .sidebar-container {
+        width: 480px;
         height: auto;
-        width: 400px;
+        display: flex;
+        flex-direction: column;
+        padding: 5px;
     }
-}
+    .image-cover img {
+        margin: 0 2px;
+    }
 
-@media (max-width: 570px) {
-    section#home {
-        height: 100vh;
+    .footer-content-container h3 {
+        font-size: 30px;
     }
-    .gekko-img {
-        width: 400px;
-        height: 400px;
-        margin: 0 auto;
-    }
-    .gekko-title {
-        font-size: 150px;
-    }
-    .hero p {
-        max-width: 450px;
-        margin: -20px auto auto;
-        font-size: 14px;
-    }
-    .sign-btn {
-        padding: 8px 20px;
+    .footer-content-container p {
         font-size: 15px;
     }
+    .footer-copyright-container p {
+        font-size: 13px;
+    }
 }
 
-@media (max-width: 440px) {
-
-    section#home {
-        display: flex;
-        flex-direction: column-reverse;
-        justify-content: start;
-        padding: 10% 0;
+@media (max-width: 520px) {
+    .nav-list a {
+        font-size: 20px;
+        margin: 0 0 15px 0;
     }
-
-    .gekko-title {
-        display: none;
-    }
-
-    .hero p {
-        font-size: 12px;
-        margin-top: -10px;
-        max-width: 320px;
-        font-size: 12px;
-    }
-    .button > button {
-        width: 250px;
-        height: 30px;
-        font-size: 16px;
-        margin-top: 30px;
-    }
-
-    .hero-container {
-        display: none;
-    }
-
-    .mobile-container {
-        display: block;
-        width: 100%;
+    .sidebar-container {
+        width: 420px;
         height: auto;
-        max-width: 400px;
+        padding: 2px;
+        
+    }
+    .image-cover {
+        padding: 10px 0 0 0;
+    }
+    .image-cover img {
+        width: 95px;
+        height: auto;
+    }
+
+    .ability-container {
+        padding: 3rem 3% 100px;
+    }
+    .ability-card {
         padding: 5%;
-        align-items: center;
+    }
+    .ability-img-container img {
+        width: 300px;
+    }
+    .ability-text-container h3 {
+        font-size: 20px;
+    }
+    .ability-text-container p {
+        max-width: 250px;
+        font-size: 14px;
+    }
+    .footer-content-container h3 {
+        font-size: 20px;
+    }
+    .footer-content-container p {
+        font-size: 11px;
+    }
+    .footer-copyright-container p {
+        font-size: 8px;
     }
 }
 
-@media (max-width: 425px) {
-
-    .hero {
+@media (max-width: 450px) {
+    .nav-list {
         width: 100%;
-        padding: 0;
-        text-align: center;
-        
+        border: 0;
     }
-
-    .hero p {
-        max-width: 320px;
-        margin: 0 auto;
+    .hero-img-container img {
+        width: 230px;    
+    }
+    .hero-title p {
+        max-width: 300px;
         font-size: 12px;
     }
+    .hero-title button {
+        width: 180px;
+        height: 35px;
+        font-size: 14px;
+    }
+    .sidebar-container {
+        width: 320px;
+    }
+    .sidebar-container h2 {
+        font-size: 18px;
+    }
+    .image-cover img {
+        width: 70px;
+        height: auto;
+    }
+}
 
-    .button > button {
+@media (max-width: 400px) {
+    .ability-img-container img {
         width: 250px;
-        height: 30px;
-        font-size: 16px;
-        margin-top: 30px;
     }
-
-    section#home {
-        height: 100vh; 
+    .ability-text-container p {
+        max-width: 250px;
+        font-size: 12px;
     }
 }
 
-@media (max-width: 600px) {
-    
-    .main-content {
-        background-color: #280073;
+@media (max-width: 350px) {
+    .hero-img-container img {
+        width: 200px;
     }
-    .abilities {
-        height: 40px;
-        font-size: 25px;
-        margin-bottom: 50px;
-    }
-    .grid-container {
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(8, 210px);
-    }
-    .card {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
-    .card h2 {
-        font-size: 30px;
-        text-align: center;
-        color: #FFC700;
-    }
-    .card h3 {
-        font-size: 12px;
-        text-align: center;
-        color: white;
-        margin-top: 0;
-    }
-    .card p {
-        font-size: 12px;
-        color: white;
-        width: auto;
-        justify-self: flex-start;
-    }
-    .card img {
-        width: 90%;
-        border-radius: 20px;
-    }
-    .right, .left {
-        margin: 0;
-        text-align: center;
-    }
-    .wingman {
-       order: 0; 
-    }
-    #wingman {
-        order: 1;
-    }
-    .dizzy {
-        order: 2;
-    }
-    #dizzy {
-        order: 3;
-    }
-    .mosh {
-        order: 4;
-    }
-    #mosh {
-        order: 5;
-    }
-    .thrash {
-        order: 6;
-    }
-    #thrash {
-        order: 7;
-    }
-    #wingman, #dizzy, #moshpit, #thrash {
-        background-color: #280073;
-        
-    }
-    footer {
-        background-color: #FFC700;
-    }
-    .closing {
-        width: auto;
-        text-align: center;
-        height: 288px;
-        margin: 20px;
-    }
-    .closing > h2 {
-        color: #280073;
-        font-size: 25px;
-    }
-    .closing > p {
-        color: black;
+    .hero-title p {
+        max-width: 250px;
         font-size: 10px;
     }
-    .social {
-        margin-top: 20px;
-        gap: 15px;
+    .hero-title button {
+        width: 150px;
+        height: 30px;
+        font-size: 12px;
     }
-    .social > img {
-        width: 40px;
+    .sidebar-container {
+        width: 280px;
     }
-    .copyright {
-        font-size: 8px;
+    .image-cover img {
+        width: 60px;;
+    }
+    .ability-text-container p {
+        max-width: 220px;
+        font-size: 11px;
+    }
+    .footer-contact-container p {
+        font-size: 10px;
     }
 }
