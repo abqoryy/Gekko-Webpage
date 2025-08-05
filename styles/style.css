@@ -288,3 +288,49 @@ footer {
     font-size: 15px;
     color: #ffffff;
 }
+
+/* additional code necessary for ability-pages.html */
+
+.ability-pages-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFC700;
+    padding: 70px 3% 120px;
+}
+.ability-pages-title h2 {
+    /* outline: orange 1px solid; */
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 50px;
+    color: #280073;
+    margin: 0 0 30px 0;
+    text-transform: uppercase;
+}
+.ability-pages-content-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 3rem;
+    /* outline: orange 1px solid; */
+}
+.ability-pages-paragraph {
+    /* outline: orange 1px solid; */
+    display: flex;
+    justify-content: flex-end;
+    width: 730px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 1.8;
+    color: #280073;
+}
+.ability-pages-img {
+    /* outline: orange 1px solid; */
+    width: 730px;
+}
+.ability-pages-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+}

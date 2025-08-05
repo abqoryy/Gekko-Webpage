@@ -45,3 +45,6 @@ document.querySelector('.dizzy p').textContent = dizzyText;
 document.querySelector('.moshpit p').textContent = moshpitText;
 document.querySelector('.thrash p').textContent = thrashText;
 
+// for changing text in ability pages
+// const wingmanPagesP = "ASDASDSDSDSD";
+// document.querySelector('.ability-pages-paragraph p').textContent = wingmanPagesP;

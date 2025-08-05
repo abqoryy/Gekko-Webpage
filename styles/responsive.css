@@ -52,6 +52,11 @@
         font-size: 12px;
         margin: 20px 0 0 0;
     }
+    /* ability-pages responsiveness */
+    .ability-pages-content-container div {
+        width: 630px;
+        font-size: 20px 
+    }
 }
 
 @media (max-width: 1350px) {
@@ -72,6 +77,11 @@
         height: 50px;
         font-size: 15px;
         margin: 30px 0 0 0;
+    }
+    /* ability-pages responsiveness */
+    .ability-pages-content-container div {
+    width: 530px;
+    font-size: 20px 
     }
 }
 
@@ -119,6 +129,15 @@
         width: 130px;
         height: auto;
         margin: 2px 0;
+    }
+
+    /* ability-pages responsiveness */
+    .ability-pages-content-container div {
+    width: 430px;
+    font-size: 15px 
+    }
+    .ability-pages-title h2 {
+        font-size: 40px;
     }
 }
 
@@ -225,11 +244,20 @@
     .footer-copyright-container p {
         font-size: 15px;
     }
+    /* ability-pages responsiveness */
+    .ability-pages-content-container div {
+    width: 330px;
+    font-size: 15px 
+    }
+    .ability-pages-title h2 {
+        font-size: 35px;
+    }
 }
 
 @media (max-width: 730px) {
     nav {
         justify-content: space-between;
+        padding: 20px 5%;
     }
     .nav-list {
         position: absolute;
@@ -298,9 +326,24 @@
     .footer-copyright-container p {
         font-size: 13px;
     }
+    /* ability-pages responsiveness */
+    .ability-pages-content-container {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .ability-pages-content-container div {
+    width: 430px;
+    font-size: 20px 
+    }
+    .ability-pages-title h2 {
+        font-size: 40px;
+    }
 }
 
 @media (max-width: 520px) {
+    nav {
+        padding: 15px 3%;
+    }
     .nav-list a {
         font-size: 20px;
         margin: 0 0 15px 0;
@@ -344,6 +387,14 @@
     .footer-copyright-container p {
         font-size: 8px;
     }
+    /* ability-pages responsiveness */
+    .ability-pages-content-container div {
+    width: 330px;
+    font-size: 15px 
+    }
+    .ability-pages-title h2 {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 450px) {
@@ -373,15 +424,34 @@
         width: 70px;
         height: auto;
     }
+
 }
 
 @media (max-width: 400px) {
+    nav {
+        padding: 5px 3%;
+    }
     .ability-img-container img {
         width: 250px;
     }
     .ability-text-container p {
         max-width: 250px;
         font-size: 12px;
+    }
+    /* ability-pages responsiveness */
+    .ability-pages-container {
+        padding: 40px 1% 80px;
+    }
+    .ability-pages-content-container {
+        gap: 1rem;
+    }
+    .ability-pages-content-container div {
+    width: 280px;
+    font-size: 12px 
+    }
+    .ability-pages-title h2 {
+        font-size: 25px;
+        margin: 0 0 10px 0;
     }
 }
 
