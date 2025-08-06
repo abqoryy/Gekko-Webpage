@@ -54,7 +54,6 @@
     }
     /* ability-pages responsiveness */
     .ability-pages-content-container div {
-        width: 630px;
         font-size: 20px 
     }
 }
@@ -80,8 +79,7 @@
     }
     /* ability-pages responsiveness */
     .ability-pages-content-container div {
-    width: 530px;
-    font-size: 20px 
+        font-size: 20px 
     }
 }
 
@@ -133,8 +131,7 @@
 
     /* ability-pages responsiveness */
     .ability-pages-content-container div {
-    width: 430px;
-    font-size: 15px 
+        font-size: 15px 
     }
     .ability-pages-title h2 {
         font-size: 40px;
@@ -246,8 +243,7 @@
     }
     /* ability-pages responsiveness */
     .ability-pages-content-container div {
-    width: 330px;
-    font-size: 15px 
+        font-size: 15px 
     }
     .ability-pages-title h2 {
         font-size: 35px;
@@ -327,13 +323,16 @@
         font-size: 13px;
     }
     /* ability-pages responsiveness */
+    .ability-pages-container {
+        padding: 50px 10% 100px;
+    }
     .ability-pages-content-container {
-        flex-direction: column-reverse;
+        flex-direction: column;
         align-items: center;
     }
     .ability-pages-content-container div {
-    width: 430px;
-    font-size: 20px 
+        width: 100%;
+        font-size: 20px 
     }
     .ability-pages-title h2 {
         font-size: 40px;
@@ -389,8 +388,7 @@
     }
     /* ability-pages responsiveness */
     .ability-pages-content-container div {
-    width: 330px;
-    font-size: 15px 
+        font-size: 15px 
     }
     .ability-pages-title h2 {
         font-size: 30px;
@@ -440,14 +438,13 @@
     }
     /* ability-pages responsiveness */
     .ability-pages-container {
-        padding: 40px 1% 80px;
+        padding: 30px 10% 80px;
     }
     .ability-pages-content-container {
         gap: 1rem;
     }
     .ability-pages-content-container div {
-    width: 280px;
-    font-size: 12px 
+        font-size: 12px 
     }
     .ability-pages-title h2 {
         font-size: 25px;
