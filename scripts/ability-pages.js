@@ -1,6 +1,6 @@
-
+export { pagesText };
 // for changing text in ability pages
-export function pagesText() {
+function pagesText() {
     const wingmanParagraph = `
     <p>Wingman is Gekko's primary ability that launches a ground-based creature forward to scan for enemies in a wide cone. If an enemy is detected, Wingman charges toward them and, if close enough, jumps and releases a concussive blast. Wingman can also bounce off walls while scanning, and if the enemy escapes his range, he resumes moving in a straight line.</p>
     <p>Besides combat, Wingman can plant or defuse the spike using Alt Fire. On attack, Gekko can send him to plant the spike at a targeted location; on defense, Wingman can defuse it. He takes the shortest possible path, even jumping over obstacles. Wingman can be destroyed by enemy fire, turning into a globule that Gekko can reclaim to reset the cooldown. If not reclaimed in time, he disappears.</p>
@@ -38,6 +38,4 @@ export function pagesText() {
     document.querySelector('.ability-pages-paragraph p').innerHTML = thrashParagraph;
     document.querySelector('.ability-pages-img img').src = "../assets/images/thrash-picture.png";
     }
-
-
 }
