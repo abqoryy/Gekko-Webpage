@@ -1,4 +1,4 @@
-import { toggleMenu, cardText, updateHeroImg } from './home.js';
+import { toggleMenu, cardText, updateHeroImg } from './home.mjs';
 toggleMenu();
 if (window.location.pathname.endsWith("/index.html") || window.location.pathname === "/" || window.location.pathname === "/gekko-website/") {
   updateHeroImg();
@@ -6,7 +6,7 @@ if (window.location.pathname.endsWith("/index.html") || window.location.pathname
   cardText();
 }
 
-import { pagesText } from './ability-pages.js';
+import { pagesText } from './ability-pages.mjs';
 if (window.location.pathname.includes("ability-pages.html")) {
   pagesText();
 }

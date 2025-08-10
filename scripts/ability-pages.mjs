@@ -1,4 +1,3 @@
-export { pagesText };
 // for changing text in ability pages
 function pagesText() {
     const wingmanParagraph = `
@@ -39,3 +38,5 @@ function pagesText() {
     document.querySelector('.ability-pages-img img').src = "../assets/images/thrash-picture.png";
     }
 }
+
+export { pagesText };

@@ -1,5 +1,3 @@
-export { toggleMenu, updateHeroImg, cardText };
-
 function toggleMenu() {
     const menu = document.querySelector('#menu-icon');
     const navList = document.querySelector('.nav-list');
@@ -47,3 +45,5 @@ function cardText() {
     document.querySelector('.moshpit p').innerHTML = moshpitText;
     document.querySelector('.thrash p').innerHTML = thrashText;
 }
+
+export { toggleMenu, updateHeroImg, cardText };
