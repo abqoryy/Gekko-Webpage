@@ -318,6 +318,19 @@
         padding: 20px;
         width: auto;
     }
+
+    .register-mobile {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        border-radius: 50px;
+        background-color: #F1FF00;
+        color: #280073;
+    }
+
     .nav-list.open {
         left: 0;
     }
