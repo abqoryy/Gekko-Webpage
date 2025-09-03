@@ -55,16 +55,6 @@ nav {
     transition: .4s ease;
 }
 
-.nav-list .register {
-    background-color: #F1FF00;
-    color: #280073;
-}
-
-.nav-list .register:hover {
-    background-color: #ade9f4;
-    transition: .4s ease;
-}
-
 .burger-menu {
     display: none;
     cursor: pointer;
